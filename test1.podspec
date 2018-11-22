@@ -14,9 +14,9 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "tianyang" => "tianyang6916@163.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/tianyang828/test1.git", :tag => s.version.to_s }
-  s.source_files  = "test1/**/*.{h,m}"
-  s.public_header_files = "test1/**/*.h"
+  s.source       = { :git => "https://github.com/tianyang828/test1.git", :tag => "#{s.version}" }
+  s.source_files  = 'test1/**/*.{h,m}'
+  s.public_header_files = 'test1/**/*.h'
 
 
 end
