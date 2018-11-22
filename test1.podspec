@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author             = { "tianyang" => "tianyang6916@163.com" }
 #s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/tianyang828/test1.git", :tag => "#{s.version}" }
-  s.source_files  = 'test1/**/* , test1.framework/**/*'
+  s.source_files  = 'test1.framework/**/*'
   s.public_header_files = 'test1/**/*.h'
 
 
